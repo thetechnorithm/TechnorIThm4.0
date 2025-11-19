@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team - TechnorIThm 4.0</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .team-card {
+            background: var(--card);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: var(--text);
+            box-shadow: 0 5px 15px #0005;
+        }
+        .team-card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 2px solid var(--accent);
+        }
+        h2 {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <div class="tech-bg"></div>
+
+
+<nav>
+    <h2>TechnorIThm 4.0</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="knowledge.html">Knowledge Hub</a>
+        <a href="chatbot.html">AI Assistant</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+    
+    <!-- ---------------- LEADERSHIP ---------------- -->
+    <h2>Institution Leadership</h2>
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Dr. Arun Sharma</h3>
+            <p><b>Principal</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Meera Kulkarni</h3>
+            <p><b>Head of Department (IT)</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Rajesh Nair</h3>
+            <p><b>Forum Incharge</b></p>
+        </div>
+
+    </div>
+
+
+    <!-- ---------------- FACULTY ---------------- -->
+    <h2>Faculty Team</h2>
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Anjali Deshmukh</h3>
+            <p><b>Faculty Member</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Karan Patil</h3>
+            <p><b>Faculty Member</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Sneha Iyer</h3>
+            <p><b>Faculty Member</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Varun Gokhale</h3>
+            <p><b>Faculty Member</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Prof. Richa Soni</h3>
+            <p><b>Faculty Member</b></p>
+        </div>
+
+    </div>
+
+
+    <!-- ---------------- STUDENT LEADERSHIP ---------------- -->
+    <h2>Student Forum Leadership</h2>
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Aditya Verma</h3>
+            <p><b>President</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Priya Nandekar</h3>
+            <p><b>Vice President</b></p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://via.placeholder.com/110" alt="">
+            <h3>Aman Sheikh</h3>
+            <p><b>Secretary</b></p>
+        </div>
+
+    </div>
+
+
+    <!-- ---------------- 14 HEADS ---------------- -->
+    <h2>Core Committee Heads</h2>
+
+    <div class="team-grid">
+        <!-- 14 Dummy Heads -->
+        <script>
+            const heads = [
+                "Event Management Head",
+                "Technical Head",
+                "Design & Media Head",
+                "Sponsorship Head",
+                "Public Relations Head",
+                "Logistics Head",
+                "Creative Head",
+                "Content Development Head",
+                "Cybersecurity Head",
+                "Web Development Head",
+                "AI & Research Head",
+                "Operations Head",
+                "Hospitality Head",
+                "Documentation Head"
+            ];
+
+            heads.forEach((role, index) => {
+                document.write(`
+                    <div class="team-card">
+                        <img src="https://via.placeholder.com/110" alt="">
+                        <h3>Member ${index + 1}</h3>
+                        <p><b>${role}</b></p>
+                    </div>
+                `);
+            });
+        </script>
+    </div>
+
+</div>
+
+</body>
+</html>
